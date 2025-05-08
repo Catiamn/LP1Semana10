@@ -22,9 +22,9 @@ namespace IntCollections
             HashSet<int>hashset = new HashSet<int>();
 
 
-            int[] inputs = new int[] {1, 10, -30, 10, -5};
+            int[] numbers = new int[] {1, 10, -30, 10, -5};
 
-            foreach(int number in inputs)
+            foreach(int number in numbers)
             {
                 list.Add(number);
                 stack.Push(number);
@@ -34,11 +34,8 @@ namespace IntCollections
 
 
             Console.WriteLine("List: " + String.Join(", ", list));
-
             Console.WriteLine("Stack : " + String.Join(", ", stack));
-
             Console.WriteLine("Queue : " + String.Join(", ", queue));
-            
             Console.WriteLine("Hashset : " + String.Join(", ", hashset));
         }
         
