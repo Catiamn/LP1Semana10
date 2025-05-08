@@ -1,5 +1,4 @@
-namespace EqualPlayer
-{
+
     public class Player
     {
         public PlayerClass PClass { get; }
@@ -25,4 +24,3 @@ namespace EqualPlayer
             return PClass.GetHashCode() ^ Name.GetHashCode();
         }
     }
-}
