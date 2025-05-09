@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace FilePower2
 {
@@ -6,7 +7,7 @@ namespace FilePower2
     {
         private static void Main(string[] args)
         {
-              string input_path = args[0];
+            string input_path = args[0];
             string input_string;
             bool input_loop = true;
             using StreamWriter sw = new StreamWriter(input_path);
