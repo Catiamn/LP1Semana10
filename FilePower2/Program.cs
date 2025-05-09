@@ -7,6 +7,11 @@ namespace FilePower2
     {
         private static void Main(string[] args)
         {
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Error: No file path provided.");
+                return;
+            }
             string input_path = args[0];
             string input_string;
             bool input_loop = true;
